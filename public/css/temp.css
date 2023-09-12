@@ -1,0 +1,289 @@
+.Allfather{
+  padding-left: 0px;
+}
+.navbar {
+  padding: 0 2%;
+}
+.navpanel {
+  padding: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.navbar-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+.login {
+  font-family: "Montserrat-ligth";
+}
+
+ .Details{
+
+   padding: 115px 20px 20px 40px;
+
+ }
+
+ .PersonalDetails{
+   padding: 10px 20px;
+   border: 4px solid;
+   border-radius: 5px;
+   border-image: linear-gradient(to right, #045de9, #09c6f9) 30;
+ }
+
+ h1{
+   padding: 0;
+   font-family: 'DM Serif Display', serif;
+   font-weight: 400;
+   font-size: 2.5rem;
+   background: linear-gradient(to right, #045de9, #09c6f9);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+ #previewImg{
+    padding: 10px;
+
+ }
+ #inpFile{
+    opacity: 0;
+    position: absolute;
+    border: 1px solid;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+ }
+ .card{
+   border: 3px solid;
+   border-image: linear-gradient(to right, #045de9, #09c6f9) 30;
+   padding: 10px;
+ }
+ .card-body{
+   padding: 5px 10px;
+ }
+ .card-body label {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 25px;
+  background: linear-gradient(to right, #045de9, #09c6f9);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform .2s ease-out;
+}
+ .nameField{
+   padding: 10px;
+ }
+ .inputcouple{
+
+   padding: 10px 5px;
+ }
+
+
+ .inputField{
+   padding: 5px 15px;
+   box-shadow: none;
+   border-radius: 4px;
+   border: solid 1px;  /* made thicker for illustration purposes only */
+   border-image: linear-gradient(to right, #045de9, #09c6f9) 1 20%;
+   color: #045de9;
+ }
+.inputField:focus {
+
+  box-shadow: none;
+  border: solid 4px;  /* made thicker for illustration purposes only */
+  border-image: linear-gradient(to right,  #09c6f9 ,#045de9) 1 20%;
+
+}
+.inputField::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #045de9;
+  opacity: .5; /* Firefox */
+}
+
+ .form-label{
+   font-size: 1rem;
+   padding: 0;
+   background: linear-gradient(to right, #045de9, #09c6f9);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+ .sociallinks{
+   padding-bottom: 5px;
+ }
+ .social-icon{
+   text-align: center;
+   padding-top: 4px;
+  }
+
+  .Work-label{
+    font-size: .8rem;
+    padding: 0;
+    margin-bottom: -5px;
+    background: linear-gradient(to right, #045de9, #09c6f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+  .workbox{
+    padding: 5px;
+    border: 2px solid;
+
+    border-image: linear-gradient(to right, #045de9, #09c6f9) 30;
+  }
+  .workcont{
+    margin: 5px;
+    padding: 5px 20px;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(to right, #045de9, #09c6f9);
+  }
+  .workparaleft{
+    text-align: left;
+    padding: 0;
+  }
+  .workpararight{
+    text-align: right;
+    padding: 0;
+  }
+  .workpararight p{
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    padding: 3px 10px;
+  }
+  .workparaleft p{
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    padding: 3px 10px;
+  }
+  .workpos{
+    font-size: 1rem;
+    font-weight: 600;
+
+  }
+  .workimp{
+    font-size: .8rem;
+    font-weight: 300;
+  }
+  .worksum{
+    font-size: .7rem;
+    font-weight: 200;
+  }
+  .buttoncont{
+
+    padding: 10px 20px;
+  }
+  .buttoncont button{
+    width: 120px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(to right, #045de9, #09c6f9);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+  }
+
+  .skillbox{
+    text-align: center;
+    background: linear-gradient(to right, #045de9, #09c6f9);
+    color: white;
+    border-radius: 30px;
+    padding: 5px;
+
+    border: 0;
+    outline: none;
+
+  }
+  .skillbox p{
+    margin-bottom: 0px;
+    padding: 2px 5px 2px 20px;
+
+  }
+  .skillbox input{
+    padding: 0;
+    border-top: 8px solid;
+    border-bottom: 8px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    background-color: transparent;
+    border-color: white;
+  }
+  .skillbox input:hover{
+
+    border-top: 8px solid;
+    border-bottom: 8px solid;
+    background-color: red;
+    border-color: white;
+    padding: 0;
+  }
+  .workparaleft input{
+
+    padding: 0;
+    border-top: 8px solid;
+    border-bottom: 8px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    background-color: transparent;
+    border-color: white;
+  }
+  .workparaleft input:hover{
+    border-top: 8px solid;
+    border-bottom: 8px solid;
+    background-color: red;
+    border-color: white;
+    padding: 0;
+  }
+  .workbox .row{
+    margin: 0 2px;
+    padding: 5px;
+  }
+
+
+ .preview{
+   height: 100%;
+   background-color: grey;
+   position: fixed;
+   z-index: -1;
+   right: 0;
+ }
+ .previewbutton{
+   text-align: right;
+   position: fixed;
+   padding: 20px;
+   right: 0;
+   bottom: 0;
+ }
+ .previewbutton button{
+
+   padding: 10px 40px;
+   color: white;
+   font-weight: 600;
+   font-size: 1.2rem;
+   cursor: pointer;
+   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+   background: linear-gradient(to right, #045de9, #09c6f9);
+   border: 0;
+   outline: none;
+   border-radius: 30px;
+ }
